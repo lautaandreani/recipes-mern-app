@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        background: #010101;
+        color: white;
+    }
+
+    body:has(#recipe-modal) {
+        overflow-y: hidden;
+    }
+}
